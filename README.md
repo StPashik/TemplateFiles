@@ -1,5 +1,5 @@
 # TemplateFiles for Realm models
-Realm model helper for quickly create models with base functional. 
+Realm model helper for quickly create models with base functional. After create may change for current task. In "BaseModel" may delete or add propertys for current solution. In "CurrentModel" may add new propertys.
 
 ###Base model
 ####Parametrs
@@ -10,11 +10,11 @@ Realm model helper for quickly create models with base functional.
 * `name`
 
 ####Methods:
-* `- (instancetype)initWithInfo:(NSDictionary *)info` Init method for all subclasses of models
-* `- (void)save;` Save method for all subclass
-* `+ (void)deleteAll` Delete all objects
+* `- (instancetype)initWithInfo:(NSDictionary *)info` init method for all subclasses of models
+* `- (void)save;` save method for all subclass
+* `+ (void)deleteAll` delete all objects
 
----
+--
 
 ###Current model
 ####Parametrs
