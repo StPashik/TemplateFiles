@@ -1,6 +1,17 @@
 # TemplateFiles for Realm models
 Realm model helper for quickly create models with base functional. After create may change for current task. In "BaseModel" may delete or add propertys for current solution. In "CurrentModel" may add new propertys.
 
+###Install
+**iOS Templates**
+
+In XCode templates files in XCode.app, but not recomended create new templates in-app, this may crush XCode
+`/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File Templates`
+
+This directory isn’t automatically created so will need to create the following directory if it doesn’t already exist
+`~/Library/Developer/Xcode/Templates/File Templates/`
+
+--
+
 ###Base model
 ####Parametrs
 - `Class` class name
