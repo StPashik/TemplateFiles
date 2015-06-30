@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>RealmModel</string>
+	<key>Description</key>
+	<string>Realm model for realm DB</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>AllowedType</key>
+	<array>
+        	<string>public.objective-c-source</string>
+     	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the class to create</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Class:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Name of superclass</string>
+			<key>Identifier</key>
+			<string>superclass</string>
+			<key>Name</key>
+			<string>SuperClass:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>FallbackHeader</key>
+			<true/>
+			<key>Type</key>
+			<string>class</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Name of shared instance</string>
+			<key>Identifier</key>
+			<string>shared</string>
+			<key>Name</key>
+			<string>Shared name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+            		<key>Identifier</key>
+            		<string>modelType</string>
+            		<key>Name</key>
+            		<string>Type of model</string>
+            		<key>Description</key>
+            		<string>Select Realm model type.</string>
+            		<key>Type</key>
+            		<string>popup</string>
+            		<key>Default</key>
+            		<string>Main</string>
+			<key>MainTemplateFile</key>
+			<dict>
+				<key>Main</key>
+				<string>Main/___FILEBASENAME___.m</string>
+				<key>Singleton</key>
+				<string>Singleton/___FILEBASENAME___.m</string>
+			</dict>
+            		<key>Values</key>
+            		<array>
+                		<string>Main</string>
+                		<string>Singleton</string>
+            		</array>
+        	</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Summary</key>
+	<string>Default code-signing resource rules file</string>
+</dict>
+</plist>
