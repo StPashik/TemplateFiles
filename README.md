@@ -42,3 +42,8 @@ This directory isn’t automatically created so will need to create the followin
 ####Methods - Singletone
 * `- (SingletoneModel *)sharedSingletonModel` Shared instance singletone
 * `+ (void)deleteAll` unavailable for singletone model
+
+--
+
+###Icon
+Template icon source file. For change title need edit text in sketch.app
